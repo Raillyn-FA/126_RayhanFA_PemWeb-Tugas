@@ -1,0 +1,38 @@
+@reference "../../../../app/globals.css";
+
+.card {
+    @apply min-w-0 rounded-xl border border-slate-200 bg-white p-6 shadow-sm;
+}
+.list {
+    @apply flex flex-col gap-4 sm:flex-row sm:items-center sm:justify-between;
+}
+.info {
+    @apply min-w-0;
+}
+.header {
+    @apply mb-6 flex items-center justify-between gap-3;
+}
+.list .header {
+    @apply mb-2 justify-start;
+}
+.id {
+    @apply rounded-md bg-slate-100 px-2.5 py-1 text-xs text-slate-500;
+}
+.icon {
+    @apply size-5 shrink-0 text-slate-400;
+}
+.name {
+    @apply text-xl font-semibold wrap-break-word;
+}
+.price {
+    @apply mt-2 text-2xl font-semibold wrap-break-word text-blue-600;
+}
+.actions {
+    @apply mt-6 flex flex-wrap gap-2;
+}
+.list .actions {
+    @apply mt-0;
+}
+.detail {
+    @apply inline-flex min-h-11 items-center justify-center rounded-lg border px-4 py-2.5 text-sm font-semibold transition-colors;
+}
