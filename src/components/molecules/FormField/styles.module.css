@@ -1,0 +1,8 @@
+@reference "../../../../app/globals.css";
+
+.field {
+    @apply mt-4 flex flex-col gap-1.5;
+}
+.label {
+    @apply text-sm font-semibold text-slate-700;
+}
