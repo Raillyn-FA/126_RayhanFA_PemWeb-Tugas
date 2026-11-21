@@ -1,0 +1,11 @@
+@reference "../../../../app/globals.css";
+
+.grid {
+    @apply grid grid-cols-1 gap-5 md:grid-cols-2 lg:grid-cols-3;
+}
+.list {
+    @apply flex flex-col gap-3;
+}
+.empty {
+    @apply py-10 text-center text-sm text-slate-500;
+}

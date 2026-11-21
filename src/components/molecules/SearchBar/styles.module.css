@@ -1,0 +1,11 @@
+@reference "../../../../app/globals.css";
+
+.bar {
+    @apply mb-6 flex flex-wrap items-center justify-between gap-3;
+}
+.input {
+    @apply max-w-sm;
+}
+.count {
+    @apply text-sm text-slate-500;
+}

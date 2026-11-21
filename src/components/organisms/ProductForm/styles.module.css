@@ -1,0 +1,17 @@
+@reference "../../../../app/globals.css";
+
+.id {
+    @apply mt-3 text-xs text-slate-500;
+}
+.hint {
+    @apply mt-1.5 text-xs text-slate-500;
+}
+.error {
+    @apply mt-3 rounded-lg border border-red-200 bg-red-50 p-3 text-sm text-red-700;
+}
+.actions {
+    @apply mt-6 flex gap-2;
+}
+.action {
+    @apply flex-1;
+}

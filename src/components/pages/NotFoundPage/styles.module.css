@@ -1,0 +1,14 @@
+@reference "../../../../app/globals.css";
+
+.page {
+    @apply py-6;
+}
+.title {
+    @apply text-3xl font-bold text-slate-900;
+}
+.text {
+    @apply mt-2 text-sm text-slate-500;
+}
+.link {
+    @apply mt-6 inline-flex min-h-11 items-center justify-center rounded-lg border px-4 py-2.5 text-sm font-semibold transition-colors;
+}

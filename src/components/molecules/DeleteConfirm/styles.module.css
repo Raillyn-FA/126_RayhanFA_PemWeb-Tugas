@@ -1,0 +1,20 @@
+@reference "../../../../app/globals.css";
+
+.summary {
+    @apply mt-4 flex flex-col gap-0.5 rounded-lg border border-slate-200 p-3;
+}
+.id {
+    @apply text-xs text-slate-500;
+}
+.name {
+    @apply text-slate-900;
+}
+.price {
+    @apply font-semibold text-blue-600;
+}
+.actions {
+    @apply mt-6 flex gap-2;
+}
+.action {
+    @apply flex-1;
+}
